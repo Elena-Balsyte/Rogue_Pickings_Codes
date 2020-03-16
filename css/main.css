@@ -1,0 +1,105 @@
+/***************************BASE STYLES*************************************/
+
+body {
+  color: #000000;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 25px;
+}
+
+@font-face {
+  font-family: WisdomScript;
+  src: url('../fonts/WisdomScript-Regular.otf') format('opentype');
+}
+
+#bottom-section {
+  align: left;
+}
+/***********************************GRID**************************************/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px
+}
+
+.half-width {
+ float: left;
+ width: 600px;
+}
+
+.third-width {
+  float: left;
+  height: 210px;
+  overflow: hidden;
+}
+
+
+/***********************************HEADER***********************************/
+header {
+  text-transform: uppercase;
+  font-size: 20px;
+  overflow: auto;
+}
+div.half-width {
+  padding: : 16px 0px 16px 0px;
+}
+
+nav ul li a {
+  color: #77a466;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/*********************************TOP SECTION********************************/
+
+img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  height: 288px;
+}
+
+/**********************************BOTTOM SECTION****************************/
+
+
+#reviews {
+  border-right: 2px solid #dedbdc;
+  border-left: 2px solid #dedbdc;
+}
+
+#reviews, #contact {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+ul {
+  color:#77a466;
+  padding: 10px 0px;
+}
+
+ #menu li {
+  padding-bottom: 15px;
+}
+/*************************************FOOTER**********************************/
+#dif-font {
+  font-family: WisdomScript;
+}
+
+footer {
+  border-top: 2px solid #dedbdc;
+  clear: both;
+  text-align: center;
+}
+
+#bottom-section {
+  margin: 0 auto;
+	clear: both;
+}
